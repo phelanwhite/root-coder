@@ -1,0 +1,18 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const NotFoundPage = () => {
+  return (
+    <div className="py-8 text-center space-y-2">
+      <div className="text-xl font-medium">404 - Not Found</div>
+      <p>The page you're looking for doesn't exist.</p>
+      <p>
+        <Link to="/me" className="text-blue-500">
+          Go back to Dashboard
+        </Link>
+      </p>
+    </div>
+  );
+};
+
+export default NotFoundPage;

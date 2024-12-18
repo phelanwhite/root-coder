@@ -1,0 +1,25 @@
+backend:
+npm i express
+npm i nodemon
+npm i dotenv
+npm i http-status-codes
+npm i http-errors
+npm i joi
+npm i bcrypt
+npm i jsonwebtoken
+npm i cloudinary
+npm i multer
+npm i body-parser
+npm i cookie-parser
+npm i cors
+
+
+frontend:
+npm i react-router-dom
+npm i react-icons
+npm i react-quill
+npm i axios
+npm install zustand
+npm i @tanstack/react-query
+
+npm i @types/node
